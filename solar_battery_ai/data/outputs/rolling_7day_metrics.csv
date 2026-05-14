@@ -1,0 +1,5 @@
+policy,total_cost_aud,total_grid_import_kwh,total_grid_export_kwh,total_pv_kwh,total_load_kwh,self_consumption_pct,peak_period_import_kwh,battery_throughput_kwh,battery_cycles_equivalent,runtime_s,cost_saving_pct,grid_import_reduction_pct
+no_battery,19.95,85.83,143.52,197.03,139.33,27.16,31.68,0.0,0.0,0.0,0.0,0.0
+rule_based,3.14,29.24,85.14,197.03,139.33,56.79,0.0,114.98,5.75,0.0,84.24,65.94
+dp_rolling,3.34,30.67,86.53,197.03,139.33,56.08,0.19,113.51,5.68,0.0,83.25,64.27
+rl_q_learning,17.05,77.88,137.14,197.03,139.33,30.4,24.83,34.4,1.72,1.24,14.52,9.26

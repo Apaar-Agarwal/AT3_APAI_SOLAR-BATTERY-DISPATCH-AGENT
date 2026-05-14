@@ -1,0 +1,9 @@
+policy,total_cost_aud,total_grid_import_kwh,total_grid_export_kwh,total_pv_kwh,total_load_kwh,self_consumption_pct,peak_period_import_kwh,battery_throughput_kwh,battery_cycles_equivalent,runtime_s
+no_battery,5.153,16.354,13.84,20.263,22.776,31.698,6.767,0.0,0.0,0.003
+rule_based,1.519,5.803,5.499,20.263,22.776,72.86,0.0,18.891,0.945,0.003
+ai_agent_base,1.373,6.548,6.272,20.263,22.776,69.048,0.138,18.237,0.912,0.066
+ai_agent_low,2.326,9.387,4.285,15.197,22.776,71.803,0.53,12.477,0.624,0.069
+ai_agent_high,1.104,6.134,8.87,23.302,22.776,61.935,0.131,18.891,0.945,0.067
+rl_q_learning_base,4.297,13.529,13.365,20.263,22.776,34.04,4.912,15.543,0.777,1.237
+rl_q_learning_low,4.472,14.123,9.201,15.197,22.776,39.456,4.731,8.16,0.408,1.237
+rl_q_learning_high,3.851,13.601,16.731,23.302,22.776,28.199,4.579,9.436,0.472,1.237
